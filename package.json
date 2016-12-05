@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "cd template_src/www && npm install --production"
+    "postinstall": "cd template_src && npm install --production"
   },
   "repository": {
     "type": "git",
